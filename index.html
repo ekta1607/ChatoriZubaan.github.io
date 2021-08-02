@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!--CZstyle CSS-->
+  <link rel="stylesheet" type="text/css" href="CZstyle.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+
+  <!--fontawesome link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!--Adding site name fonts-->
+  <link href="http://fonts.cdnfonts.com/css/samarkan" rel="stylesheet">
+
+  <title>ChatoriZubaan</title>
+</head>
+
+<body>
+  <!--Header Begins-->
+  <header class="main_header">
+    <div class="d-flex justify-content-center align-items-center flex-column py-5">
+      <h1 class="main_heading" style="font-family: samarkan;">ChatoriZubaan</h1>
+      <p class="main_heading__para">
+        Yeh zaaika hai Indian Flavours Ka!
+      </p>
+    </div>
+    <!--the main image-->
+    <div class="main_header__div d-flex align-items-center justify-content-center pl-5 flex-column shadow">
+      <h2 class="animateWord">
+        <span>Its a</span>
+        <div>
+            <ul class="flip">
+              <li>Food Blog</li>
+              <li>Cooking Guide</li>
+              <li>Cooking Event Organizer</li>
+            </ul>
+          
+        </div>
+      </h2>
+    </div>
+  </header>
+  <!--header ends-->
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand justify-content-start" href="index.html"
+        style="color: chocolate;font-family: 'Samarkan', sans-serif;">ChatoriZubaan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html.html">Home<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Recipes
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Maincourse</a></li>
+              <li><a class="dropdown-item" href="#">Snacks</a></li>
+              <li><a class="dropdown-item" href="#">Sweets</a></li>
+              <li><a class="dropdown-item" href="#">Drinks</a></li>
+              <li><a class="dropdown-item" href="#">Soups</a></li>
+
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="search btn btn-outline-secondary text-dark" type="submit"
+            style="background-color: chocolate; font-size: 17px;">Search</button>
+        </form>
+
+
+
+      </div>
+    </div>
+  </nav>
+  <!--navbar ends-->
+
+  <!--two sides div-->
+  <div class="container-fluid">
+    <div class="row">
+      <!--to get left and right side of the div space-->
+      <div class="col-xl-10 col-lg-10 col-md-11 col-11 mx-auto my-5">
+        <div class="row gx-5 mx-sm-auto">
+          <!--to get the left side of the div space-->
+          <div class="col-lg-8 col-md-11 col-11 mx-auto">
+            <div class="row gy-5">
+              <!--our first post-->
+              <div class="col-12 card p-4 shadow blog_left__div">
+                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-10">
+                  <h1>COOKING COMPETITION</h1>
+                  <p class="blog-title">
+                    <span class="font-weight-bold">Everything about how to join Cooking Competition is here! </span> 28
+                    May, 2021
+                  </p>
+                </div>
+                <figure class=" right_side_img mb-5">
+                  <img
+                    src="https://images.pexels.com/photos/2696064/pexels-photo-2696064.jpeg?cs=srgb&dl=pexels-elle-hughes-2696064.jpg&fm=jpg"
+                    class="img-fluid shadow">
+                </figure>
+                <p style="color:black">
+                  <span class="font-weight-bold">Cooking
+                  </span>
+                <p> is a Necessity, Cooking is an Art.
+                  <i>Have you been cooking recipes in your kitchen for years? Or you simply enjoy cooking?
+                    We Indians share our love for cooking and good food.
+                    That’s why we decided to launch a competition.
+                    Take part in our contest and show us what you can do with burner, oven, knife,
+                    and a bit of fantasy.</i>
+                </p>
+                <p><b>The participation fees is Rs.1500 only.</b>
+                  <br>
+                  <i style="color: black;"><b>Participate Now</b></i>
+
+                </p>
+                <!--Like and Reply button-->
+                <div class="d-flex justify-content-end left_div_btns">
+                  <div>
+                    
+                    <button class="left_div__reply" onclick="reply('reply1')">
+                      <i class="fas fa-comments"></i> Replies <badge class="bg-white text-dark p-2">1</badge>
+                    </button>
+                  </div>
+                </div><br><br>
+                <!--replies-->
+                <div class="replies" id="reply1">
+                  <div class="d-flex justify-content-start flex-row align-self-center card reply_card py-3">
+                    <div class="reply_img mx-2 align-items-center">
+                      <img src="https://img.icons8.com/color/48/000000/user-skin-type-7.png" />
+                    </div>
+                    <div class="replY_text__left">
+                      <p class="blog_title">
+                        <span font-weight-bold>Karan,</span>29 May, 2021, 02:12 PM
+                      </p>
+                      <p>Your recipes are so easy and simple.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--second post-->
+              <div class="col-12 card p-4 shadow blog_left__div">
+                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                  <h1>COOKING COURSES</h1>
+                  <p class="blog-title">
+                    <span class="font-weight-bold">It isn't just a blog, Here we also provide cooking classes. </span> 29
+                    May, 2021
+                  </p>
+                </div>
+                <figure class=" right_side_img mb-5">
+                  <img
+                    src="https://images.pexels.com/photos/5593621/pexels-photo-5593621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    class="img-fluid shadow">
+                </figure>
+                <p style="color:black">
+                  <i style="font-weight: normal;">We have introduced our new series of short-term cooking courses with
+                    certification at very reasonable price.</i>
+                <ul id="list1" style="font-weight: normal;font-size:2rem;">
+                  <li>
+                    Culinary Course
+                  </li>
+                  <li>
+                    Baking Course
+                  </li>
+                  <li>
+                    Chocolate Making
+                  </li>
+                  <li>
+                    Plating
+                  </li>
+                </ul>
+                </span>
+                <b class="text-muted" style="font-size: 2rem;">Courses Starting at Just 2000. Early bird discount
+                  available.</b>
+                </p>
+                <p>
+                  <br>
+                  <i style="color: black;"><b>Book your seats NOW!</b></i>
+
+                </p>
+                <!--like and replies button-->
+                <div class="d-flex justify-content-end left_div_btns">
+                  
+                  <div>
+                    <button class="left_div__reply" onclick="reply('reply2')">
+                      <i class="fas fa-comments"></i> Replies <badge class="bg-white text-dark p-2">2</badge>
+                    </button>
+                  </div>
+                </div><br><br>
+                <!--replies-->
+                <div class="replies" id="reply2">
+                  <div class="d-flex justify-content-start flex-row align-self-center card reply_card py-3">
+                    <div class="reply_img mx-2 align-items-center">
+                      <img src="https://img.icons8.com/color/48/000000/user-skin-type-7.png" />
+                    </div>
+                    <div class="replY_text__left">
+                      <p class="blog_title">
+                        <span font-weight-bold>Karan,</span>29 May, 2021, 02:12 PM
+                      </p>
+                      <p>Your recipes are so easy and simple</p>
+                    </div>
+                    <div class="replY_text__left">
+                      <p class="blog_title">
+                        <span font-weight-bold>Kanishk,</span>29 May, 2021, 02:12 PM
+                      </p>
+                      <p>awesome blog</p>
+                    </div>
+                  </div>
+
+                  <div class="d-flex justify-content-start flex-row align-self-center card reply_card py-3">
+                    <div class="reply_img mx-2 align-items-center">
+                      <img src="https://img.icons8.com/color/48/000000/user-skin-type-7.png" />
+                    </div>
+                    <div class="replY_text__left">
+                      <p class="blog_title">
+                        <span font-weight-bold>Druv,</span>30 May, 2021, 09:00 PM
+                      </p>
+                      <p>Your recipes are so easy and simple</p>
+                    </div>
+                    <div class="replY_text__left">
+                      <p class="blog_title">
+                        <span font-weight-bold>Karan,</span>29 May, 2021, 02:12 PM
+                      </p>
+                      <p>Your recipes are so easy and simple</p>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!--to get the right side of the div space-->
+          <div class="col-lg-3 col-md-7 col-11 align-items-end justify-content-end m-lg-0 m-auto">
+            <div class="row gy-5 left_div__blog">
+              <!--About me post-->
+              <div class="col-12 about_us__div shadow align-items-center">
+                <div class="col-12 right_div__title py-4 pl-2">
+                  <h2>About Us</h2>
+                </div>
+                <div class="row">
+                  <figure class="about_us__img">
+                  <img src="E:\HTML\bootstraptrial\ChatoriZubaan\CZLOGO.png" alt="CZLOGO" height="200" width="200"><br>
+                </figure>
+                  <p style="font-family: 'Samarkan', sans-serif;">ChatoriZubaan <span>is a Food blog, cooking guide,
+                      cooking eventsorgnizer.
+
+                  </p></span>
+                </div>
+              </div>
+              <!--popular posts-->
+              <div class="popular_post shadow">
+                <div class="right_div__title py-4 pl-2">
+                  <h2>Popular Posts</h2>
+                </div>
+                <div class="right_sub_div">
+                  <div class="row">
+                    <div class="col-3 popular_post__img1 py-2 pl-2">
+                    </div>
+                    <div class="list-group">
+                      <a href="#" class="list-group-item list-group-item-action active"
+                        style="background-color: #000213; color:chocolate" aria-current="true">
+                        Dal Makhani
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action">Tomato Soup</a>
+                      <a href="#" class="list-group-item list-group-item-action">Gulab Jamun</a>
+                      <a href="#" class="list-group-item list-group-item-action">Mango Shake</a>
+                      <a href="#" class="list-group-item list-group-item-action">Chowmein Samosa</a>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--advertise part-->
+              <div class="right_div_post">
+                <div class="right_div__title py-4 pl-2">
+                  <h2>Advertisement</h2>
+                </div>
+                <div class="right_sub_div">
+                  <div class="advertise_img bg-light shadow">
+                    <img src="E:\HTML\bootstraptrial\ChatoriZubaan\ads.png" alt="Ads" height="150" width="200">
+                    <p>Ads goes here!</p>
+                  </div>
+                </div>
+              </div>
+
+              <!--Follow us-->
+              <div class="right_div_post">
+                <div class="col-12 right_div__title py-4 pl-2">
+                  <h2>Follow Us</h2>
+                </div>
+                <div class="right_sub_div d-flex justify-content-around shadow">
+                  <a href="#"><i class="fab fa-3x fa-facebook-square"></i></a>
+                  <a href="#"><i class="fab fa-3x fa-instagram-square"></i></a>
+                  <a href="#"><i class="fab fa-3x fa-twitter-square"></i></a>
+                  <a href="#"><i class="fab fa-3x fa-youtube-square"></i></a>
+                  <a href="#"><i class="fab fa-3x fa-linkedin"></i></a>
+                </div>
+              </div>
+
+              <!--Register newsletter-->
+              <div class="right_div_post">
+                <div class="col-12 right_div__title py-4 pl-2">
+                  <h2>Register</h2>
+                </div>
+                <div class="right_reg_div d-flex justify-content-center shadow">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Enter your eamil address and get notified on
+                        the latest blog post,new courses,and upcoming events.</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="name@gmail.com">
+                      <div id="emailHelp" class="form-text">
+                      </div>
+
+                      <button type="submit" class="reg_btn d-block">Submit</button>
+                  </form>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- footer starts-->
+    <div class="footer_div">
+      <footer class="container">
+        <P>All content, recipes, videos, and photography are copyrighted to ChatoriZubaan, They may not be republished
+          in
+          part or whole without permission and proper credit. Contact to seek syndication rights.</P>
+        <p>&copy;2021 ChatoriZubaan &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+    </div>
+    <!--footer ends-->
+
+    <!---popper and bootsrap javascript--->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+      crossorigin="anonymous"></script>
+
+    <!--reply button  javascript-->
+    <script type="text/javascript">
+      const reply = (res) => {
+        var res = document.getElementById(res);
+        console.log(res);
+        if (res.className == "replies") {
+          res.className = "cz_show";
+        }
+        else if (res.className == "cz_show") {
+          res.className = "replies"
+        }
+
+      }
+    </script>
+
+    
+</body>
+
+</html>
